@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FLIPKART AUTOMATION Suite">
+    <test name="Test Execution using TestNG">
+        <classes>
+            <class name="demo.TestCase"/>
+             <methods>
+                    <include name="testCase_01" />
+                    <include name="testCase_02" /> 
+                    <include name="testCase_03" /> 
+                </methods>
+        </classes>
+    </test>
+</suite>
